@@ -1,0 +1,24 @@
+{
+  "name": "taskapp",
+  "version": "1.0.0",
+  "description": "TaskApp api provides various taks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Surya S",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "get-stream": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.13",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3",
+    "sharp": "^0.25.3",
+    "validator": "^13.0.0"
+  }
+}
